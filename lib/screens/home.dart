@@ -69,8 +69,8 @@ class _HomePageState extends State<HomePage> {
                 ],
                 bottom: const TabBar(
                   unselectedLabelColor: Colors.grey,
-                  labelColor: Colors.green,
-                  indicatorColor: Colors.green,
+                  labelColor: Color(0xff128C7E),
+                  indicatorColor: Color(0xff128C7E),
                   indicatorWeight: 3,
                   labelStyle:
                       TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
