@@ -39,6 +39,7 @@ class _HomePageState extends State<HomePage> {
               SliverAppBar(
                 pinned: true,
                 floating: true,
+                snap: true,
                 title: const Text(
                   "WhatsApp",
                   style: TextStyle(color: Colors.grey),
