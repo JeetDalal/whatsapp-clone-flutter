@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "775472184677",
+    "project_id": "whtsap-clone",
+    "storage_bucket": "whtsap-clone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775472184677:android:17492e88e324dfca53758c",
+        "android_client_info": {
+          "package_name": "com.example.whatsapp_clone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "775472184677-1t87uspe4nksjit9sjvusgoqnsjormsl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgzUnQ2PJzinGSkdwXS9A6TxFA0a8_Bh8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "775472184677-1t87uspe4nksjit9sjvusgoqnsjormsl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
