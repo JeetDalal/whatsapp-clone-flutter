@@ -15,6 +15,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
+      initialIndex: 1,
       length: 4,
       child: Scaffold(
         floatingActionButton: FloatingActionButton(
@@ -66,6 +67,12 @@ class _HomePageState extends State<HomePage> {
                   ),
                 ],
                 bottom: const TabBar(
+                  unselectedLabelColor: Colors.grey,
+                  labelColor: Colors.green,
+                  indicatorColor: Colors.green,
+                  indicatorWeight: 3,
+                  labelStyle:
+                      TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
                   tabs: [
                     Tab(
                       icon: Icon(Icons.people),
