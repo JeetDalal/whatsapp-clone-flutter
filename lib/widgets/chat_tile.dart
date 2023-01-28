@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
 class ChatTile extends StatelessWidget {
+  final String name;
   const ChatTile({
+    required this.name,
     Key? key,
   }) : super(key: key);
 
@@ -14,9 +16,9 @@ class ChatTile extends StatelessWidget {
           child: Icon(Icons.person),
         ),
       ),
-      title: const Text(
-        "Krsna Dalal",
-        style: TextStyle(
+      title: Text(
+        name,
+        style: const TextStyle(
           color: Colors.white,
           fontWeight: FontWeight.bold,
           fontSize: 18,

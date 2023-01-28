@@ -19,7 +19,9 @@ class _HomePageState extends State<HomePage> {
       length: 4,
       child: Scaffold(
         floatingActionButton: FloatingActionButton(
-          onPressed: () {},
+          onPressed: () {
+            Navigator.of(context).pushNamed('/contacts-screen');
+          },
           backgroundColor: const Color(0xff128C7E),
           child: Icon(
             Icons.message,
